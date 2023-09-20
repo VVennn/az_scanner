@@ -1,0 +1,16 @@
+PODS:
+  - az_scanner (0.1.0)
+
+DEPENDENCIES:
+  - az_scanner (from `../`)
+
+EXTERNAL SOURCES:
+  az_scanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  az_scanner: 89aa292415336094948b536e204a45977eba79bc
+
+PODFILE CHECKSUM: feb854e3ca5434a89af43af0865c08550b690177
+
+COCOAPODS: 1.12.0

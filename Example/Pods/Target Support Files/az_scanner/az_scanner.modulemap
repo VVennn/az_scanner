@@ -1,0 +1,6 @@
+framework module az_scanner {
+  umbrella header "az_scanner-umbrella.h"
+
+  export *
+  module * { export * }
+}
