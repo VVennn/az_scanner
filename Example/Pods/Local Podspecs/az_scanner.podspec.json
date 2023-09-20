@@ -1,6 +1,6 @@
 {
   "name": "az_scanner",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "summary": "A short description of az_scanner.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/VVennn/az_scanner",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/VVennn/az_scanner.git",
-    "tag": "1.0.5"
+    "tag": "1.0.6"
   },
   "platforms": {
-    "ios": "11.0"
+    "ios": "9.0"
   },
   "source_files": "az_scanner/Classes/**/*",
   "dependencies": {

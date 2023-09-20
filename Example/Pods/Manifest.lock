@@ -1,5 +1,5 @@
 PODS:
-  - az_scanner (1.0.2):
+  - az_scanner (1.0.6):
     - ScanKitFrameWork
   - ScanKitFrameWork (1.1.2.305)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  az_scanner: 4a521135fe60bebea170e6cec16f81c031ea9ece
+  az_scanner: 808645ee74ef9f439cd7a94cae8e98348fe916f3
   ScanKitFrameWork: ee6d1cfba7791b3f4f01bb9599364d82298c2d0a
 
 PODFILE CHECKSUM: feb854e3ca5434a89af43af0865c08550b690177

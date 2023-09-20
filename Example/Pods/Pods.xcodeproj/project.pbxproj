@@ -537,6 +537,37 @@
 			};
 			name = Release;
 		};
+		09E515BF68F4152D393CA1652D77042C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430C7089FD0E739FBDF512AE8150BC82 /* az_scanner.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/az_scanner/az_scanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/az_scanner/az_scanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/az_scanner/az_scanner.modulemap";
+				PRODUCT_MODULE_NAME = az_scanner;
+				PRODUCT_NAME = az_scanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		29D64CD4AAAEE1AE55342F714AC1DC26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9D0013BDEA5640FDB6BD6EE5B0873A6D /* Pods-az_scanner_Example.debug.xcconfig */;
@@ -583,43 +614,10 @@
 			};
 			name = Debug;
 		};
-		6DCAC1A1C5AAFCA6F891B62E98E457E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 430C7089FD0E739FBDF512AE8150BC82 /* az_scanner.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/az_scanner/az_scanner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/az_scanner/az_scanner-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/az_scanner/az_scanner.modulemap";
-				PRODUCT_MODULE_NAME = az_scanner;
-				PRODUCT_NAME = az_scanner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7BE249D8A9093F7DBCC6BF744D1C0E2F /* Debug */ = {
+		78C0B6CDB088689FB2BFA364A49B2D84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9B935A165875C81D98D51107EAF3D81 /* az_scanner.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -631,7 +629,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/az_scanner/az_scanner-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/az_scanner/az_scanner-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/az_scanner/az_scanner.modulemap";
 				PRODUCT_MODULE_NAME = az_scanner;
@@ -897,8 +895,8 @@
 		D1F8239AC3C7EBFB4A1556FE477F4C87 /* Build configuration list for PBXNativeTarget "az_scanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7BE249D8A9093F7DBCC6BF744D1C0E2F /* Debug */,
-				6DCAC1A1C5AAFCA6F891B62E98E457E0 /* Release */,
+				78C0B6CDB088689FB2BFA364A49B2D84 /* Debug */,
+				09E515BF68F4152D393CA1652D77042C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
