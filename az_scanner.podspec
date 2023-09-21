@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'az_scanner'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = 'A short description of az_scanner.'
 
 # This description is used to generate tags and improve search results.
@@ -31,12 +31,15 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'az_scanner/Classes/**/*'
-  
+  s.ios.vendored_frameworks = 'az_scanner/frameworks/*'
+  s.resources = [
+    'az_scanner/bundle/*'
+  ]
   # s.resource_bundles = {
   #   'az_scanner' => ['az_scanner/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'ScanKitFrameWork'
+#  s.dependency 'ScanKitFrameWork'
 end

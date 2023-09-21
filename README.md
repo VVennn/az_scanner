@@ -28,4 +28,3 @@ Az, vvennnnnnnn@gmail.com
 
 az_scanner is available under the MIT license. See the LICENSE file for more info.
 # az_scanner
-# az_scanner
