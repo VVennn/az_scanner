@@ -10,7 +10,6 @@
 		12209287626EF9CA1A189E9E58C49439 /* Pods-az_scanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B947D3103E74EA1D2DD41A8D650806 /* Pods-az_scanner_Example-dummy.m */; };
 		1281924512121CB7C60ED4290EE06FC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		17B6D27934A7A4BB8B5FFF22A1EE1D01 /* Pods-az_scanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 264411CE798D41C3743ACD17CFD5FDD7 /* Pods-az_scanner_Tests-dummy.m */; };
-		29E2C21B61C1CE2957BD74E053295CE7 /* ScanKitFrameWorkBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 60DE66E2793BB15255D5F2195C2D31AF /* ScanKitFrameWorkBundle.bundle */; };
 		3BD6C58B4F9746C7B37F4DBB02804F0F /* az_scanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 524B10293BD0D4DC20B820B98E77AFD6 /* az_scanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47228C0B00011058ED97935339E6D61D /* Pods-az_scanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA4A2306A9150A0C002ED648579447A /* Pods-az_scanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97739AE1686E677631744C237BEC7C37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -41,30 +40,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007EB00B40EFA2DD204DCA1C50E77C1D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		007EB00B40EFA2DD204DCA1C50E77C1D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		019BAD962D7921D94F09DE0C276DAFA4 /* az_scanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "az_scanner-dummy.m"; sourceTree = "<group>"; };
 		07DE6AEC00FB073F2EDAEB1896EF15AB /* Pods-az_scanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-az_scanner_Tests.modulemap"; sourceTree = "<group>"; };
 		129CAD5D3BCED4E41679A2C7FDCFBF6A /* Pods-az_scanner_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-az_scanner_Tests"; path = Pods_az_scanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2247707CB9EAA5E4274825103C1FE6F2 /* az_scanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = az_scanner.release.xcconfig; sourceTree = "<group>"; };
 		264411CE798D41C3743ACD17CFD5FDD7 /* Pods-az_scanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-az_scanner_Tests-dummy.m"; sourceTree = "<group>"; };
-		370093900A8E51108F72D8F649E0FFA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		370093900A8E51108F72D8F649E0FFA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3C4DF51D90A0FEF742266AFAB515E45C /* Pods-az_scanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-az_scanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		524B10293BD0D4DC20B820B98E77AFD6 /* az_scanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "az_scanner-umbrella.h"; sourceTree = "<group>"; };
 		5697C8B56BA1AF4C1DC0AEBF2ECE4D9E /* MTBBarcodeScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTBBarcodeScanner.m; path = az_scanner/Classes/MTBBarcodeScanner.m; sourceTree = "<group>"; };
 		5AD1AAD30BD2F0C9352C12927ECAAFF7 /* Pods-az_scanner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-az_scanner_Example.modulemap"; sourceTree = "<group>"; };
 		60DD76ED8BF70FB37F2239188AEC9115 /* Pods-az_scanner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-az_scanner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		60DE66E2793BB15255D5F2195C2D31AF /* ScanKitFrameWorkBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ScanKitFrameWorkBundle.bundle; path = az_scanner/bundle/ScanKitFrameWorkBundle.bundle; sourceTree = "<group>"; };
 		6201D536EB0224E22C925B0BC8640E63 /* az_scanner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = az_scanner; path = az_scanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		633370F3338D48C1AF113EDA9089959A /* az_scanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = az_scanner.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		633370F3338D48C1AF113EDA9089959A /* az_scanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = az_scanner.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		696E43142B7F1800472A37D4187308F5 /* MTBBarcodeScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTBBarcodeScanner.h; path = az_scanner/Classes/MTBBarcodeScanner.h; sourceTree = "<group>"; };
 		6F96D62FD670F2AD55452EE120B366C5 /* AZScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AZScanner.m; path = az_scanner/Classes/AZScanner.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7F2A08E8A25E2AAE3F6546FD39B5F0A6 /* az_scanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = az_scanner.debug.xcconfig; sourceTree = "<group>"; };
 		7FA4A2306A9150A0C002ED648579447A /* Pods-az_scanner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-az_scanner_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8A6BEA7AC9C79BBF4BBD2559B02AA1F7 /* Pods-az_scanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-az_scanner_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9A7562D4991C9568891801E62439FC74 /* ScanKitFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScanKitFrameWork.framework; path = az_scanner/frameworks/ScanKitFrameWork.framework; sourceTree = "<group>"; };
 		9D572D92C8694ABBD425613ED561809E /* az_scanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "az_scanner-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E1CB1D748B72782D08266AAEAB754D6 /* Pods-az_scanner_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-az_scanner_Tests-Info.plist"; sourceTree = "<group>"; };
 		AF43D5A1A842193E0D3435440D3B233B /* Pods-az_scanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-az_scanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B41228F7F5D969F7DA25BE110685623B /* az_scanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = az_scanner.modulemap; sourceTree = "<group>"; };
@@ -144,21 +141,11 @@
 				6F96D62FD670F2AD55452EE120B366C5 /* AZScanner.m */,
 				696E43142B7F1800472A37D4187308F5 /* MTBBarcodeScanner.h */,
 				5697C8B56BA1AF4C1DC0AEBF2ECE4D9E /* MTBBarcodeScanner.m */,
-				60DE66E2793BB15255D5F2195C2D31AF /* ScanKitFrameWorkBundle.bundle */,
-				79327CBDCC0DB118C2264C2DA782DF67 /* Frameworks */,
 				332225BB339F94DBF1D74D969799AD07 /* Pod */,
 				CC21F5F1B3976F4EB54AEB54A5A43CD3 /* Support Files */,
 			);
 			name = az_scanner;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		79327CBDCC0DB118C2264C2DA782DF67 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9A7562D4991C9568891801E62439FC74 /* ScanKitFrameWork.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9F1DAA4C6BEF5EE3570E693AABA96B8E /* Targets Support Files */ = {
@@ -374,7 +361,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E2C21B61C1CE2957BD74E053295CE7 /* ScanKitFrameWorkBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,8 +698,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
