@@ -208,7 +208,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				4942FADD1D31864D28DFDAEC /* [CP] Embed Pods Frameworks */,
-				3C24611D9D4E109309995BAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,24 +298,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3C24611D9D4E109309995BAB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-az_scanner_Example/Pods-az_scanner_Example-resources.sh",
-				"${PODS_ROOT}/ScanKitFrameWork/ScanKitFrameWorkBundle.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ScanKitFrameWorkBundle.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-az_scanner_Example/Pods-az_scanner_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		49412713835638F48C6B1079 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,7 +327,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-az_scanner_Example/Pods-az_scanner_Example-frameworks.sh",
-				"${PODS_ROOT}/ScanKitFrameWork/ScanKitFrameWork.framework",
+				"${PODS_ROOT}/../../az_scanner/frameworks/ScanKitFrameWork.framework",
 				"${BUILT_PRODUCTS_DIR}/az_scanner/az_scanner.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";

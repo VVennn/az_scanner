@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'az_scanner'
-  s.version          = '1.0.12'
+  s.version          = '1.1.0'
   s.summary          = 'A short description of az_scanner.'
 
 # This description is used to generate tags and improve search results.
@@ -28,13 +28,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/VVennn/az_scanner.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'az_scanner/Classes/**/*'
-#  s.ios.vendored_frameworks = 'az_scanner/frameworks/*'
-#  s.resources = [
-#    'az_scanner/bundle/*'
-#  ]
+  s.ios.vendored_frameworks = 'az_scanner/frameworks/*'
+  s.resources = [
+    'az_scanner/bundle/*'
+  ]
   # s.resource_bundles = {
   #   'az_scanner' => ['az_scanner/Assets/*.png']
   # }
@@ -42,6 +42,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'ScanKitFrameWork', '=1.0.0.300'
+  # s.dependency 'ScanKitFrameWork', '=1.0.0.300'
 
 end

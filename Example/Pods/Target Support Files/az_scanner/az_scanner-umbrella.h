@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "AZScanner.h"
 #import "MTBBarcodeScanner.h"
 
 FOUNDATION_EXPORT double az_scannerVersionNumber;

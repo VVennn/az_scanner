@@ -1,6 +1,6 @@
 {
   "name": "az_scanner",
-  "version": "1.0.6",
+  "version": "1.0.12",
   "summary": "A short description of az_scanner.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/VVennn/az_scanner",
@@ -13,15 +13,16 @@
   },
   "source": {
     "git": "https://github.com/VVennn/az_scanner.git",
-    "tag": "1.0.6"
+    "tag": "1.0.12"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "az_scanner/Classes/**/*",
-  "dependencies": {
-    "ScanKitFrameWork": [
-
-    ]
-  }
+  "ios": {
+    "vendored_frameworks": "az_scanner/frameworks/*"
+  },
+  "resources": [
+    "az_scanner/bundle/*"
+  ]
 }

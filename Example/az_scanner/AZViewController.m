@@ -7,8 +7,12 @@
 //
 
 #import "AZViewController.h"
+#import <AZScanner.h>
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
 
 @interface AZViewController ()
+@property (nonatomic, strong) AZScanner *scanner;
 
 @end
 
@@ -26,4 +30,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    self.view.frame = CGRectMake(0, 0, SCREEN_WIDTH - 100, SCREEN_HEIGHT - 100);
+    self.scanner = [[AZScanner alloc] initWithPreviewView:self.view];
+    [self.scanner startScanningWithResultBlock:^(NSDictionary * _Nonnull codeInfo) {
+        NSLog(@"codeInfo:%@", codeInfo);
+    }];
+}
 @end
