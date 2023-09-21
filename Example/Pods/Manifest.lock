@@ -1,16 +1,23 @@
 PODS:
-  - az_scanner (1.0.12)
+  - az_scanner (1.1.1):
+    - ScanKitFrameWork
+  - ScanKitFrameWork (1.1.2.305)
 
 DEPENDENCIES:
   - az_scanner (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ScanKitFrameWork
 
 EXTERNAL SOURCES:
   az_scanner:
     :path: "../"
 
 SPEC CHECKSUMS:
-  az_scanner: fdc552e56ea9b688b89a196ddcc2fd4e39a186bf
+  az_scanner: d769cf452a77fe05240ef934d5cdd828536701de
+  ScanKitFrameWork: ee6d1cfba7791b3f4f01bb9599364d82298c2d0a
 
-PODFILE CHECKSUM: 3135ed1cdfc1c4fc0b627ed0907e76422b10fc04
+PODFILE CHECKSUM: 4a06f01f7333056aac17d4f6d91451726df7a1b3
 
 COCOAPODS: 1.12.0
