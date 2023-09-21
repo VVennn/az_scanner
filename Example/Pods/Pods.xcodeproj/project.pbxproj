@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = ScanKitFrameWork;
+			productName = ScanKitFrameWork;
 		};
 /* End PBXAggregateTarget section */
 
@@ -66,7 +67,7 @@
 /* Begin PBXFileReference section */
 		0448D92307A0942CCC7258379D5579BC /* Pods-az_scanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-az_scanner_Tests.modulemap"; sourceTree = "<group>"; };
 		05CE1D8221D889F7F0BB7EE7542C0E76 /* Pods-az_scanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-az_scanner_Example-dummy.m"; sourceTree = "<group>"; };
-		0759480CAF8B5E4D74F17D8A3D7F8873 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0759480CAF8B5E4D74F17D8A3D7F8873 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		08A20EB60DEAC043AD7F659020BAF790 /* Pods-az_scanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-az_scanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		129CAD5D3BCED4E41679A2C7FDCFBF6A /* Pods-az_scanner_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-az_scanner_Tests"; path = Pods_az_scanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		153053A5B41311503B79874E58D635BF /* Pods-az_scanner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-az_scanner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -84,13 +85,13 @@
 		6201D536EB0224E22C925B0BC8640E63 /* az_scanner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = az_scanner; path = az_scanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		790C8C3650ACC60315A4DFD467221798 /* Pods-az_scanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-az_scanner_Example-frameworks.sh"; sourceTree = "<group>"; };
-		819FF9BDBD687739BFA49BF27A94A4D0 /* az_scanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = az_scanner.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		819FF9BDBD687739BFA49BF27A94A4D0 /* az_scanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = az_scanner.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		852640FAFBACC756DAA6565140D065D4 /* Pods-az_scanner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-az_scanner_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8A3A7C24DF08BE0537A448BA00A3B369 /* ScanKitFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanKitFrameWork.framework; sourceTree = "<group>"; };
-		958C46919B35DB065DE88A3B9B31D227 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		958C46919B35DB065DE88A3B9B31D227 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9ACEA880C3B677BAD1A692CA02F7DA90 /* Pods-az_scanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-az_scanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D0013BDEA5640FDB6BD6EE5B0873A6D /* Pods-az_scanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-az_scanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E2A10717BFAC123D252E45F0AB08C2A /* Pods-az_scanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-az_scanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AC5A0689A578AE17E53ECE4347DB9D4E /* az_scanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "az_scanner-prefix.pch"; sourceTree = "<group>"; };
 		AFFD16494F84F7075795EA37525D8A35 /* MTBBarcodeScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTBBarcodeScanner.m; path = az_scanner/Classes/MTBBarcodeScanner.m; sourceTree = "<group>"; };
@@ -300,7 +301,6 @@
 				D29FFF22270696DE8642E069C3F72599 /* Resources */,
 				F1CAA7CF2084707F46CFECED3EF6E803 /* Support Files */,
 			);
-			name = ScanKitFrameWork;
 			path = ScanKitFrameWork;
 			sourceTree = "<group>";
 		};
@@ -694,13 +694,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -793,7 +792,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;

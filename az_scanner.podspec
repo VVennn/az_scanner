@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'Az' => 'vvennnnnnnn@gmail.com' }
   s.source           = { :git => 'https://github.com/VVennn/az_scanner.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'az_scanner/Classes/**/*'
